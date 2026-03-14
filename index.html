@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.html" method="get">
+        <input type="text" placeholder="enter name" name="name" required/> <br>
+        <input type="email" placeholder="enter email" name="email" required/> <br>
+        <input type="passowrd" placeholder="enter password" name="passowrd" required/><br>
+        <input type="password" placeholder="confirm passowrd" name="confirm password" required> <br>
+        <input type="number" placeholder="contact number" name="contact number" required> <br>
+
+        <div>
+             <input type="radio" id="gmale" value="male" name="gender"/>
+             <label for="gmale">Male</label>
+             <input type="radio" id="gfemale" value="female" name="gener"/>
+             <label for="gfemale">female</label>
+        </div>
+        <!-- <div>
+            <input type="checkbox" value="10th"/>10th
+            <input type="checkbox" value="inter"/>inter
+            <input type="checkbox" value="diploma"/>diploma
+            <input type="checkbox" value="btech"/>b tech
+        </div> -->
+        <div>
+            <select>
+            <option value="">select your city</option>
+            <option value="vijaywada">vijayawada</option>
+            <option value="hyderabad">hyderabad</option>
+            <option value="vizag">vizag</option>
+        </select>
+        </div>
+        <!-- <div>
+            <textarea placeholder="enter adress"></textarea>
+        </div> -->
+        <div>
+            <label for="">date of birth</label>
+            <input type="date"/>
+        </div>
+        <div>
+            <label for="">profile pic</label>
+            <input type="file">
+        </div>
+        <button>submit</button>  <br>
+        <a href="./login.html">login</a>  <br>
+    </form>
+</body>
+</html>
